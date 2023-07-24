@@ -34,7 +34,7 @@ namespace Averagely
                     Console.WriteLine("You're doing great!");
                     break;
                 default:
-                    Console.WriteLine("You nees to do better next year , apprentice!");
+                    Console.WriteLine("You need to do better next year , apprentice!");
                     break;
             }
         }
