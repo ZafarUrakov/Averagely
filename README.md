@@ -18,7 +18,7 @@ Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 #### Demo:
 
-![](demoAveragely/demo0.png)
+![](./demoAveragely/demo0.png)
 
 ### You can take my code and try it yourself !
 
