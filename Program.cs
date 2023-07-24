@@ -25,18 +25,18 @@ namespace Averagely
             double chemistry = double.Parse(Console.ReadLine()!);
 
             double allBall = english + math + geography + biology + chemistry;
-            Console.WriteLine($"\nYour avarege score = { allBall / 5 }!");
+            double answer = allBall / 5;
+            Console.WriteLine($"\nYour avarege score = {answer}!\n");
 
-            if(allBall >=3 & allBall <= 5)
+            switch(answer)
             {
-                Console.WriteLine("You are doing great!");
+                case >= 4:
+                    Console.WriteLine("You're doing great!");
+                    break;
+                default:
+                    Console.WriteLine("You nees to do better next year , apprentice!");
+                    break;
             }
-            else if(allBall < 3)
-            {
-                Console.WriteLine("Try harder!");
-            }
-            else 
-                Console.WriteLine("This is impossible!");
         }
     }
 }
