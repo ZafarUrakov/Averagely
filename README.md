@@ -2,27 +2,36 @@
 * ### In this development you can calculate the average score of the grades.
 
 #### Types:
-C#
-double & string 
+```C#
+double & string
+``` 
 #### Operators:
-C#
-if(){...}
-else{...}
-The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
+```C#
+switch
+```
+The ***switch*** statement provides multidirectional branching in the program.
+
+
 #### Funstions:
-C#
+```C#
 Output to console: Console.WriteLine();
 Input from console: Console.Readline();
 Converts: double.Parse();
+```
 Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
 Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 
 #### Demo:
 
-![](demoAveragely/demo0.png)
+![](./demoAveragely/demo0.png)
 
- If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/Averagely/tree/releases/v1.0) !
+- Work with switch operator:
+
+![](./demoAveragely/demo0.1.png)
+
+
+ If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/Averagely/tree/releases/v2.0) !
 
 ### You can take my code and try it yourself !
 
