@@ -2,18 +2,21 @@
 * ### In this development you can calculate the average score of the grades.
 
 #### Types:
-C#
+```C#
 double & string 
+```
 #### Operators:
-C#
+```C#
 if(){...}
 else{...}
+```
 The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
 #### Funstions:
-C#
+```C#
 Output to console: Console.WriteLine();
 Input from console: Console.Readline();
 Converts: double.Parse();
+```
 Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
 Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
