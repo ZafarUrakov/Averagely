@@ -6,6 +6,7 @@ namespace Averagely
     {
         static void Main()
         {
+
             Console.WriteLine("\tHi student,please enter your grades for this year.\n");
 
             Console.Write("English: ");
@@ -25,6 +26,17 @@ namespace Averagely
 
             double allBall = english + math + geography + biology + chemistry;
             Console.WriteLine($"\nYour avarege score = { allBall / 5 }!");
+
+            if(allBall >=3 & allBall <= 5)
+            {
+                Console.WriteLine("You are doing great!");
+            }
+            else if(allBall < 3)
+            {
+                Console.WriteLine("Try harder!");
+            }
+            else 
+                Console.WriteLine("This is impossible!");
         }
     }
 }
