@@ -31,7 +31,7 @@ Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 ![](demoAveragely/demo0.png)
 
-Work with ***switch*** and *If-Else*** operators:
+Work with ***switch*** and ***If-Else*** operators:
 
 ![](demoAveragely/demo6.png)
 
