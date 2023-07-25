@@ -11,6 +11,12 @@ if(){...}
 else{...}
 ```
 The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
+
+```C#
+switch
+```
+The ***switch*** statement provides multidirectional branching in the program.
+
 #### Funstions:
 ```C#
 Output to console: Console.WriteLine();
@@ -25,7 +31,15 @@ Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 ![](demoAveragely/demo0.png)
 
- If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/Averagely/tree/releases/v1.0) !
+Work with ***switch*** and *If-Else*** operators:
+
+![](demoAveragely/demo6.png)
+
+![](demoAveragely/demo5.png)
+
+
+
+ #### If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/Averagely/tree/releases/v1.0) !
 
 ### You can take my code and try it yourself !
 
