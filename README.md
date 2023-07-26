@@ -31,17 +31,26 @@ Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 ![](demoAveragely/demo0.png)
 
-Work with ***switch*** and ***If-Else*** operators:
-
-![](demoAveragely/demo6.png)
+If statement:
 
 ![](demoAveragely/demo5.png)
 
+Switch statement:
 
+![](demoAveragely/demo6.png)
 
- #### If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/Averagely/tree/releases/v1.0) !
+## Release Notes
 
-### You can take my code and try it yourself !
+In the [first](https://github.com/ZafarUrakov/Averagely/tree/releases/v1.0) version , we used arithmetic operations with input and output to the console.
+
+As for this version , you may notice changes in the code like:
+- Logical operators such as switch and if-else have been added.
+- Simplified the code.
+- Fixed the errors.
+
+This is not all , there will be changes soon.
+
+### You can take my code and try it yourself 👇🏻
 
 1.About the list of files,click <> Code.
 
