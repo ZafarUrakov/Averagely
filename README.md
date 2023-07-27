@@ -1,15 +1,56 @@
 # Averagely
-* ### In this development you can calculate the average score of the grades.
+### In this development you can calculate the average score of the grades.
 
 #### Types:
 ```C#
-double & string
-``` 
+int & double & string 
+```
 #### Operators:
+```C#
+if(){...}
+else{...}
+```
+The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
+
+![](./demoAveragely/demo6.png)
 ```C#
 switch
 ```
 The ***switch*** statement provides multidirectional branching in the program.
+
+![](./demoAveragely/demo0.1.png)
+
+```C#
+while(){...}
+for(){...}
+```
+Loops can execute a block of code as long as a specified condition is reached.
+
+Loops are handy because they save time, reduce errors, and they make code more readable.
+
+The ***while*** loop loops through a block of code as long as a specified condition is True:
+```C#
+while (condition) 
+{
+  // code block to be executed
+}
+```
+![](./demoAveragely/demo5.png)
+
+When you know exactly how many times you want to loop through a block of code, use the ***for*** loop instead of a ***while*** loop:
+```C#
+for (statement 1; statement 2; statement 3) 
+{
+  // code block to be executed
+}
+```
+![](./demoAveragely/demo7.png)
+
+**Statement 1** is executed (one time) before the execution of the code block.
+
+**Statement 2** defines the condition for executing the code block.
+
+**Statement 3** is executed (every time) after the code block has been executed.
 
 
 #### Funstions:
@@ -24,16 +65,24 @@ Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 #### Demo:
 
-![](./demoAveragely/demo0.png)
+![](demoAveragely/demo0.png)
 
-- Work with switch operator:
+## Release Notes
 
-![](./demoAveragely/demo0.1.png)
+In the [second](https://github.com/ZafarUrakov/Averagely/tree/releases/v1.0) version , we used arithmetic operations with ***input*** and ***output*** to the console.
+We also used logical operators ***if-else***.
 
+As for this version , you may notice changes in the code like:
 
- If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/Averagely/tree/releases/v2.0) !
+- Loop operations have been added.
+- Simplified the code.
+- Fixed the errors.
+  
+Now the student can enter a certain number of subject(as many as he wants).
 
-### You can take my code and try it yourself !
+Quickly go and try to use.
+
+### You can take my code and try it yourself 👇🏻
 
 1.About the list of files,click <> Code.
 
