@@ -65,11 +65,11 @@ Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 #### Demo:
 
-![](demoAveragely/demo0.png)
+![](demoAveragely/demo0.2.png)
 
 ## Release Notes
 
-In the [second](https://github.com/ZafarUrakov/Averagely/tree/releases/v1.0) version , we used arithmetic operations with ***input*** and ***output*** to the console.
+In the [second](https://github.com/ZafarUrakov/Averagely/tree/releases/v2.0) version , we used arithmetic operations with ***input*** and ***output*** to the console.
 We also used logical operators ***if-else***.
 
 As for this version , you may notice changes in the code like:
