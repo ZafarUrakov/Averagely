@@ -5,6 +5,12 @@
 ```C#
 int & double & string 
 ```
+#### Funstions:
+```C#
+Output to console: Console.WriteLine();
+Input from console: Console.Readline();
+Converts: double.Parse();
+```
 #### Operators:
 ```C#
 if(){...}
@@ -12,13 +18,13 @@ else{...}
 ```
 The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
 
-![](./demoAveragely/demo6.png)
+![](./demoAveragely/demo9.png)
 ```C#
 switch
 ```
 The ***switch*** statement provides multidirectional branching in the program.
 
-![](./demoAveragely/demo0.1.png)
+![](./demoAveragely/demo10.png)
 
 ```C#
 while(){...}
@@ -35,7 +41,7 @@ while (condition)
   // code block to be executed
 }
 ```
-![](./demoAveragely/demo5.png)
+![](./demoAveragely/demo7.png)
 
 When you know exactly how many times you want to loop through a block of code, use the ***for*** loop instead of a ***while*** loop:
 ```C#
@@ -44,7 +50,7 @@ for (statement 1; statement 2; statement 3)
   // code block to be executed
 }
 ```
-![](./demoAveragely/demo7.png)
+![](./demoAveragely/demo8.png)
 
 **Statement 1** is executed (one time) before the execution of the code block.
 
@@ -52,20 +58,20 @@ for (statement 1; statement 2; statement 3)
 
 **Statement 3** is executed (every time) after the code block has been executed.
 
-
-#### Funstions:
 ```C#
-Output to console: Console.WriteLine();
-Input from console: Console.Readline();
-Converts: double.Parse();
+try{...}
+catch(){...}
 ```
+
+![](./demoAveragely/demo5.png)
+
 Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
 Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 
 #### Demo:
 
-![](demoAveragely/demo0.2.png)
+![](demoAveragely/demo6.png)
 
 ## Release Notes
 
@@ -75,6 +81,8 @@ We also used logical operators ***if-else***.
 As for this version , you may notice changes in the code like:
 
 - Loop operations have been added.
+- Add try-catch operations.
+- Add Jump statement goto.
 - Simplified the code.
 - Fixed the errors.
   
