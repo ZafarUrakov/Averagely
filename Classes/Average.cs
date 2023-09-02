@@ -4,10 +4,8 @@ public class Average
 {
     private int StudentsOld { get; set; }
     
-    public Average(int studentsOld)
-    {
-        StudentsOld = studentsOld;
-    }
+    public Average(int studentsOld) =>
+    StudentsOld = studentsOld;
     
     public void AverageSecurity()
     {
@@ -37,7 +35,6 @@ public class Average
             totalScore += subject;
         }
         double answer = totalScore / numberOfItems;
-        
         Console.WriteLine($"\nYour average score = {answer}!\n");
 
         switch(answer)

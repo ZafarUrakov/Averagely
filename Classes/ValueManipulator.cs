@@ -1,5 +1,4 @@
 namespace Averagely.Classes;
-
 public class ValueManipulator
 {
     public static double GetUserValueByMassage(string text)
