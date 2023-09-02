@@ -2,14 +2,11 @@ namespace Averagely.Classes;
 
 public class Report
 {
-
    public void ShowMenu() =>
    Console.Write("1.Calculator score\n2.Exit\nChoice: ");
    
-   
    public int FormatExceptionMessage()
    {
-
       int firstOption = 0;
       try
       {
@@ -27,7 +24,6 @@ public class Report
          Console.ForegroundColor = ConsoleColor.Magenta;
          Console.WriteLine("Value is too large or too small, take a look data type.");
          Console.ResetColor();
-
       }
       catch (Exception exception)
       {
@@ -36,14 +32,12 @@ public class Report
          Console.ResetColor();
 
       }
-
       return firstOption;
    }
 
    public void ResultProgress() =>
    Console.WriteLine("\nData progressing..");
    
-
    public void DefaultProgress()
    {
       Console.Clear();

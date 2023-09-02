@@ -20,8 +20,8 @@ namespace Averagely
                 {
                     case 1:
                         Console.Clear();
-                        int studentsAge = ValueManipulator.
-                            GetUserValueByMassageToInt("How old are you student?\nMy age: ");
+                        int studentsAge =
+                            ValueManipulator.GetUserValueByMassageToInt("How old are you student?\nMy age: ");
                         var average = new Average(studentsAge);
                         average.AverageSecurity();
                         break;
@@ -33,15 +33,9 @@ namespace Averagely
                         report.DefaultProgress();
                         break;
                 }
-                
+
                 backToMenu = ValueManipulator.AppLogin();
             } while (backToMenu == "yes");
-
-
-
-
-
-
         }
     }
 }
