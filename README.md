@@ -3,7 +3,8 @@
 
 #### Types:
 ```C#
-int & double & string 
+int & double & string
+
 ```
 #### Funstions:
 ```C#
@@ -17,6 +18,7 @@ if(){...}
 else{...}
 ```
 The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
+
 
 ![](./demoAveragely/demo9.png)
 ```C#
