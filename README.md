@@ -68,7 +68,6 @@ catch(){...}
 Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
 Learn more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
-
 #### Demo:
 
 ![](demoAveragely/demo6.png)
