@@ -25,7 +25,6 @@ switch
 The ***switch*** statement provides multidirectional branching in the program.
 
 ![](./demoAveragely/demo10.png)
-
 ```C#
 while(){...}
 for(){...}
